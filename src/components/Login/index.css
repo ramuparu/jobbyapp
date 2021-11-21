@@ -1,0 +1,106 @@
+.jobby-app-page {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.jobby-app-login_page {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  background-color: #272727;
+  border-radius: 8px;
+  border-width: 0px;
+  min-height: 400px;
+  background-size: cover;
+  padding: 15px;
+}
+
+.jobby_logo_style {
+  height: 30px;
+  width: 80px;
+  align-self: center;
+  margin-bottom: 45px;
+}
+
+.form_style {
+  display: flex;
+  flex-direction: column;
+}
+
+.username_card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.username_label_style {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'roboto';
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.username_input_style {
+  width: 100%;
+  background-color: transparent;
+  border-color: #2c364c;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+}
+.password_card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.password_label_style {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'roboto';
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.password_input_style {
+  width: 100%;
+  background-color: transparent;
+  border-color: #2c364c;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+}
+.login_btn_style {
+  background-color: #6366f1;
+  font-size: 12px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #f8fafc;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.error_msg_style {
+  font-size: 9px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .jobby_logo_style {
+    height: 80px;
+    width: 200px;
+  }
+  .jobby-app-login_page {
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

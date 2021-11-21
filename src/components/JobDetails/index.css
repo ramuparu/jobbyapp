@@ -1,0 +1,252 @@
+.job_details_page {
+  background-color: black;
+  min-height: 100vh;
+  background-size: cover;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.jobs_list_con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs_list_card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #202020;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.company_logo_con {
+  display: flex;
+  align-items: center;
+}
+.company_logo_img {
+  height: 40px;
+  width: 40px;
+}
+.title_rating_card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title_style {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.rating_card {
+  display: flex;
+  align-items: center;
+}
+.rating_para_style {
+  color: white;
+  font-size: 7px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-left: 10px;
+  padding-top: 0px;
+}
+
+.location_intern_con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location_intern_card {
+  display: flex;
+  align-items: center;
+}
+.location_card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.location_para {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-left: 10px;
+  padding-top: 0px;
+}
+.intern_card {
+  display: flex;
+  align-items: center;
+}
+.package_style {
+  color: white;
+
+  font-weight: bold;
+  font-family: 'roboto';
+}
+
+.line_style {
+  width: 100%;
+  background-color: #2c364c;
+}
+.description_style {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.description_para_style {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'roboto';
+}
+.life_card {
+  display: flex;
+  flex-direction: column;
+}
+.life_para_style {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'roboto';
+  width: 100%;
+  padding-top: 0px;
+}
+.life_style {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.life_img_style {
+  width: 100%;
+}
+
+.description_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link_style {
+  display: flex;
+  align-items: center;
+}
+.skills_style {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+
+/*failure CSS */
+
+.failure_con {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.failure_img {
+  height: 300px;
+  width: 300px;
+}
+.oops_para {
+  color: white;
+
+  font-weight: 700;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.failure_para {
+  color: #7e858e;
+
+  font-weight: 500;
+  font-family: 'roboto';
+  font-size: 13px;
+}
+.failure_retry_btn {
+  color: white;
+
+  font-weight: 700;
+  font-family: 'roboto';
+  font-size: 10px;
+  background-color: blue;
+  border-width: 0px;
+  border-radius: 2px;
+  height: 40px;
+  width: 130px;
+}
+.skills_unlist_card {
+  display: flex;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.skills_list_card {
+  list-style-type: none;
+  display: flex;
+  margin-right: 10px;
+  width: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.skill_img_style {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.skills_para {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .title_style {
+    font-size: 16px;
+  }
+  .company_logo_img {
+    height: 100px;
+    width: 100px;
+  }
+  .rating_para_style {
+    font-size: 12px;
+  }
+  .description_style {
+    font-size: 35px;
+  }
+  .description_para_style {
+    font-size: 25px;
+  }
+  .skills_style {
+    font-size: 35px;
+  }
+  .skills_list_card {
+    width: 300px;
+  }
+  .life_style {
+    font-size: 35px;
+  }
+  .life_para_style {
+    font-size: 25px;
+    width: 60vw;
+  }
+  .life_card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .skill_img_style {
+    height: 50px;
+    width: 50px;
+  }
+}
